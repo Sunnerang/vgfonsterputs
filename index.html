@@ -9,6 +9,18 @@
 		<title>Västgöta Fönsterputs</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<style>
+			.image-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+				gap: 10px;
+			}
+			.image-grid img {
+				width: 100%;
+				height: 200px;
+				object-fit: cover;
+			}
+		</style>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/logo1.svg" type="image/svg+xml">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
@@ -51,7 +63,7 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Om oss</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
 								<p>Västgöta Fönsterputs är ett litet företag som grundades av Otis Sunneräng i april 2018. Otis började med att putsa fönster Februari 2017 och har fortsatt sedan dess. Maj 2022 anställdes Jaime Rozo som är en otroligt duktig fönsterputsare. Så just nu är vi 2 putsare som jobbar på Västgöta Fönsterputs.</p>
 								<p>Vi är ett litet företag som fokuserar på fönsterputs men vi har god erfarenhet av höghöjdstäd, vanlig städ och även måleri. Vi putsar vilka slags fönster som helst, allt från stora till små, utvändiga till fyrsidiga! Vi hjälper dig som kund att nyttja RUT-avdraget för att få 50% avdrag på arbetskostnaden.</p>
 								<p>Kontakta oss via epost eller telefon, och skicka gärna bilder på dina fönster i samband med detta så kan vi ge dig en mer specifik och prisvänlig offert.</p>
@@ -60,15 +72,21 @@
 						<!-- Work -->
 							<article id="work">
 								<h2 class="major">Tjänster</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
 							<p>Vi är ett litet företag som fokuserar på fönsterputs men vi har god erfarenhet av höghöjdstäd, vanlig städ och även måleri. Vi putsar vilka slags fönster som helst, allt från stora till små, utvändiga till fyrsidiga! Vi hjälper dig som kund att nyttja RUT-avdraget för att få 50% avdrag på arbetskostnaden.</p>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">Bilder</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Kontakta oss via epost eller telefon, och skicka gärna bilder på dina fönster i samband med detta så kan vi ge dig en mer specifik och prisvänlig offert.</p>
+
+								<div class="image-grid">
+									<img src="images/bogomil-mihaylov-XlMYwW2yoGs-unsplash.jpg" alt="Image 1">
+									<img src="images/jonathan-simcoe-HFug8fv_1jw-unsplash.jpg" alt="Image 2">
+									<img src="images/matto-fredriksson-shQYlLf-DAQ-unsplash.jpg" alt="Image 3">
+									<img src="images/pexels-pixabay-258160.jpg" alt="Image 4">
+								</div>
+								
 							</article>
 
 						<!-- Contact -->
@@ -76,7 +94,7 @@
 								<h2 class="major">Boka</h2>
 								<p>Kontakta oss via epost, telefon, eller formuläret nedan, och skicka gärna bilder på dina fönster i samband med detta så kan vi ge dig en mer specifik och prisvänlig offert. Beskriv även gärna antalet och typen fönster.</p>
 																<p>Epost: vgfonsterputs@gmail.com<br>Telefonnummer: 0709325486</p>
-								<form method="post" action="#">
+								<form method="post" action="https://formspree.io/f/xdoqrneo">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Namn</label>
@@ -92,15 +110,13 @@
 										</div>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
+										<li><input type="submit" value="Sänd meddelande" class="primary" /></li>
+										<li><input type="reset" value="Återställ formulär" /></li>
 									</ul>
 								</form>
 								<ul class="icons">
 									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
